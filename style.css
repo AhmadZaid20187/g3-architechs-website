@@ -165,6 +165,27 @@ main > section{
   
 }
 
+#experience-badge{
+  padding: 45px 42px;
+  margin-left: -100px;
+  margin-top: -77px;
+  
+}
+
+#experience-year{
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.feature-architech img{
+  width: 100%;
+}
+
+#badge-deccription{
+  font-size: 1.56rem;
+  line-height: 2.5rem;
+}
+
 
 /* some facts related style */
 
@@ -220,7 +241,8 @@ main > section{
 /* Responsive Media Query */
 @media screen and (max-width: 576px){
   .navbar,
-  .nav-links, 
+  .nav-links,
+  .features,
   .teams{
     flex-direction: column;
   }
@@ -246,19 +268,26 @@ main > section{
     margin-left: 20px;
   }
 
+  #experience-badge{
+    margin-top: 20px;
+    margin-left: 20px;
+
+  }
+
 }
 
 /* medium size device */
 @media screen and (min-width: 576px) and (max-width: 992px){
-  .team{
+  .teams{
     flex-direction: column;
+
     /* display: grid; */
     /* grid-template-columns: repeat(2, 1fr); */
     /* display: block; */
   }
-
+  
   .our-features{
-    margin: 50pc auto;
+    margin: 50px auto;
   }
 
   .sponspor-companies, .facts-container{
